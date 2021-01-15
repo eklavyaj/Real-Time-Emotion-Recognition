@@ -1,7 +1,6 @@
-mtcnn==0.1.0
 opencv_python==4.2.0.34
-tensorflow-cpu==2.2.0
 streamlit==0.64.0
+mtcnn==0.1.0
+tensorflow==2.2.0
 numpy==1.19.0
-# Keras==2.4.3
-Pillow==8.0.1
+Pillow==8.1.0
