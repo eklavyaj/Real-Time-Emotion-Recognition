@@ -3,5 +3,5 @@ opencv_python==4.2.0.34
 tensorflow-cpu==2.2.0
 streamlit==0.64.0
 numpy==1.19.0
-Keras==2.4.3
+# Keras==2.4.3
 Pillow==8.0.1
