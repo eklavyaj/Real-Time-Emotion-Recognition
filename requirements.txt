@@ -3,5 +3,5 @@ numpy==1.18.1
 tensorflow_cpu==2.2.0
 streamlit==0.62.1
 mtcnn==0.1.0
-Pillow==8.1.0
+# Pillow==8.1.0
 # tensorflow==2.4.1
