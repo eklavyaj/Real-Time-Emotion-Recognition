@@ -5,13 +5,17 @@ This is an attempt to perform emotion recognition from facial expressions. There
 I built a streamlit app to deploy my model (only on images). The code was extended to function in real time (for videos and webcam feed). 
 
 # Implementation
-The MTCNN library in python was used for face detection in the input feed. The faces were cropped and passed through the model to classify it into one of the emotions mentioned above. The model was built and implemented in Keras with a tensorflow backend.
+The MTCNN library in python was used for face detection in the input feed. The faces were cropped and passed through the model to classify it into one of the emotions mentioned above. The model was built and implemented in Keras with a tensorflow backend. The model is deployed on streamlit. The Website can be run on the local server by running the following commands:
 
-# Website 
-![](assets/sample_output.png)
-
-Website can be run on local by running the following command after cloning the repository. 
 ```
+git clone https://github.com/eklavyaj/Facial-Expression-Recognition/
+cd Facial-Expression-Recognition/
+pip install -r requirements.txt
 streamlit run app.py
 ```
+
+
+# Website Preview
+![](assets/sample_output.png)
+
 
