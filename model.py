@@ -1,7 +1,7 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import numpy as np
-from tensorflow.keras.models import model_from_json
+from keras.models import model_from_json
 import cv2 as cv2
 
 class FacialExpressionModel(object):
