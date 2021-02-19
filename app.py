@@ -85,17 +85,14 @@ def main():
 			st.write("Detection")
 
 			face_detector_mtcnn = MTCNN()
-			# face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 			model = FacialExpressionModel('model/model.json', 'model/model_weights.h5')
 			frame = np.array(out_image)
 
-			# frame = cv2.resize(frame, (400,400))
 			if enhance_type == 'Gray-Scale':
 				gray = frame
 			else:
 				gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-			# faces = face_cascade.detectMultiScale(gray, 1.3,4)
 			if enhance_type != 'Gray-Scale':
 				frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 			else:
@@ -106,7 +103,7 @@ def main():
 			for dict_face in dict_faces:
 				x,y,w,h = dict_face['box'][:]
 				faces.append([x,y,w,h])
-			# print(faces)
+
 			st.write("Number of faces detected - {}.".format(len(faces)))
 
 			i = 1
