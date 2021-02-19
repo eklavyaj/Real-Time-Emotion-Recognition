@@ -10,7 +10,13 @@ The MTCNN library in python was used for face detection in the input feed. The f
 ```
 git clone https://github.com/eklavyaj/Facial-Expression-Recognition/
 cd Facial-Expression-Recognition/
+```
+Install the requirements using (one may create a new conda enviroment):
+```
 pip install -r requirements.txt
+```
+Launch the app using the following command:
+```
 streamlit run app.py
 ```
 
