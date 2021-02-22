@@ -107,7 +107,7 @@ def process_image(out_image):
 
 	st.image(frame)
 
-	if st.button('Save'):
+	if st.button('Save Detection'):
 		plt.savefig(frame, 'image.png')
 
 
@@ -143,6 +143,9 @@ def main():
 			except:
 				st.text('Please choose a different Enhancement.')
 			# st.stop()
+		
+		if st.button('Save Enhanced Image'):
+			plt.savefig(img, 'image.png')
 
 		process = st.sidebar.button('Process Image')
 
@@ -151,7 +154,6 @@ def main():
 				process_image(img)
 			else:
 				st.text('Please upload a file.')
-
 
 	else:
 		st.write("This is an attempt to perform emotion recognition from facial expressions. There is added functionality to format the image as required. The model will run on the formatted image.")
