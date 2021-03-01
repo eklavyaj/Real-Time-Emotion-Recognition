@@ -22,6 +22,7 @@ streamlit run app.py
 
 
 # Website Preview
+There have been some changes in the deployment, you may view it locally by following the above steps. 
 ![](assets/sample_output.png)
 
 
