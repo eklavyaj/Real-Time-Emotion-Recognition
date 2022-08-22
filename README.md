@@ -26,3 +26,6 @@ There have been some changes in the deployment, you may view it locally by follo
 ![](assets/sample_output.png)
 
 
+# License
+
+This project is licensed under the [MIT License]("license). 
