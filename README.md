@@ -1,4 +1,4 @@
-# Real-Time-Emotion-Recognition
+# Real-time Emotion Recognition
 
 # Introduction
 This is an attempt to perform emotion recognition from facial expressions. There is added functionality to format the image as required. The model will run on the formatted image. This is a classification model, which classifies the input into 7 human emotions, namely Anger, Happy, Sad, Neutral, Disgust, Surprise and Fear. 
